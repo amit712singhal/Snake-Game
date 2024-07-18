@@ -125,11 +125,11 @@ void setup()
     head->next = NULL;
 
 label1:
-    fruitx = rand() % 35;
+    fruitx = rand() % 30;
     if (fruitx == 0)
         goto label1;
 label2:
-    fruity = rand() % 35;
+    fruity = rand() % 30;
     if (fruity == 0)
         goto label2;
     score = 0;
@@ -256,11 +256,11 @@ void logic()
         add_segment();
         score += 10;
     label3:
-        fruitx = rand() % 35;
+        fruitx = rand() % 30;
         if (fruitx == 0)
             goto label3;
     label4:
-        fruity = rand() % 35;
+        fruity = rand() % 30;
         if (fruity == 0)
             goto label4;
     }

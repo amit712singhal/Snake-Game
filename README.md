@@ -1,4 +1,4 @@
-# Snake Game in C
+# Snake Game
 
 Welcome to Compiler Gamings implementation of the classic Snake Game in C. This simple console-based game allows you to control a snake, eat fruits, and avoid collisions with walls and itself.
 
@@ -7,6 +7,7 @@ Welcome to Compiler Gamings implementation of the classic Snake Game in C. This 
 - [Introduction](#introduction)
 - [Features](#features)
 - [How to Play](#how-to-play)
+- [Preview](#preview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Overview](#code-overview)
@@ -32,6 +33,10 @@ This project implements the Snake Game using basic C programming concepts. It fe
 3. Eat the '\*' symbols to increase your score and snake length.
 4. Avoid collisions with the walls ('█') and your own body ('■').
 5. Press 'X' to quit the game at any time.
+
+## Preview
+
+![demo](demo.png)
 
 ## Installation
 
